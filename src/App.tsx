@@ -29,6 +29,8 @@ const getExpenses = () => {
   const expenses = localStorage.getItem("expenses");
   if (expenses) {
     return JSON.parse(expenses);
+  } else {
+    return [];
   }
 };
 function App() {
