@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# The Expense Calculator 🧮
+The expense calculator is an app in which you can track your daily expenses and visualize how much you spent with the help of charts. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🔥 Technologies 
+- `ReactJS`
+- `Typescript`
+- `Chart js`
+- `React-hook-form`
+- `Zod`
 
-Currently, two official plugins are available:
+## 🚀 Features
+- **Create an expanese**
+- **Delete an expanese**
+- **Filter an expanese by category**
+- **Total cost**
+- **charts for visualization**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 👨‍💻 start the project 
+To run the project in your local environment, follow these steps:
 
-## Expanding the ESLint configuration
+1. Clone the repository to your local machine.
+2. Navigate to the project directory and run npm install or yarn to install the required dependencies.
+3. Start the project with npm run dev or yarn dev.
+4. Open http://localhost:5173 (or the address displayed in your console) in your web browser to view the application.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📸 Screenshot
 
-- Configure the top-level `parserOptions` property like this:
+![Screenshot 2024-01-23 212326](https://github.com/Dev-Sarmad/Expense-Calculator/assets/111682412/20d041bc-c4d9-46a7-b195-5e2f2ac2bc37)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
