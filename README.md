@@ -27,3 +27,7 @@ To run the project in your local environment, follow these steps:
 
 ![Screenshot 2024-01-23 212326](https://github.com/Dev-Sarmad/Expense-Calculator/assets/111682412/20d041bc-c4d9-46a7-b195-5e2f2ac2bc37)
 
+
+https://github.com/Dev-Sarmad/Expense-Calculator/assets/111682412/76d6c38f-e03b-4761-9628-8e7af6a6aa8d
+
+
